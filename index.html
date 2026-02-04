@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viotle</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Hind+Madurai:wght@300;400;500;600;700&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -33,9 +37,9 @@
     <main>
         <section class="hero" id="main">
             <div>
-            <p>Sweet fun, full of milk.</p>
-            <h1>Feel inside cold with our delicious ice-cream</h1>
-        <p>
+            <p class="hero__text secondary-text">Sweet fun, full of milk.</p>
+            <h1 class="hero__title">Feel inside cold with our delicious<span> ice-cream </span></h1>
+        <p class="hero__text primery-text">
     Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words.
 Buy Now</p>
             </div>
@@ -44,10 +48,10 @@ Buy Now</p>
         </section>
         <section class="aboud_us" id="aboud_us">
             <h2>Aboud us</h2>
-        <img src="./img-pistachio.png" alt="Pistachio">
+        <img src="./images/img-pistachio.png" alt="Pistachio">
         <img src="/images/img-milk.png" alt="Milk">
         <img src="/images/img-strawberry.png" alt="strawberry">
-        <p>
+        <p class="hero__p">
             Porem ipsum dolor sit amet, consectetur adipiscing elit. 
             <span>Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
             Class aptent taciti sociosqu ad litora torquent</span> per conubia nostra, per inceptos himenaeos.
@@ -58,9 +62,9 @@ Buy Now</p>
             <ul>
                 <li>
                     <img src="/images/Prodyct_1.png" alt="ice-cream">
-                    <h3>Brown dread</h3>
-                    <p>Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
-                    <p>$19.55<sub>$22.55</sub></p>
+                    <h3 class="hero__h3">Brown dread</h3>
+                    <p class="hero__bon">Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
+                    <p class="hero__pp">$19.55<sub>$22.55</sub></p>
                     <button type="button">
                         Buy Now
                     </button>
@@ -69,9 +73,9 @@ Buy Now</p>
             <ul>
                 <li>
                     <img src="/images/Prodyct_2.png" alt="ice-cream">
-                    <h3>Brown dread</h3>
-                    <p>Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
-                    <p>$19.55<sub>$22.55</sub></p>
+                    <h3 class="hero__h3">Brown dread</h3>
+                    <p class="hero__bon">Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
+                    <p class="hero__pp">$19.55<sub>$22.55</sub></p>
                     <button type="button">
                         Buy Now
                     </button>
@@ -80,9 +84,9 @@ Buy Now</p>
             <ul>
                 <li>
                      <img src="/images/Prodyct_3.png" alt="ice-cream">
-                    <h3>Brown dread</h3>
-                    <p>Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
-                    <p>$19.55<sub>$22.55</sub></p>
+                    <h3 class="hero__h3">Brown dread</h3>
+                    <p class="hero__bon">Bon Au Pain is a pioneer in the healthy fast food scene.Bon </p>
+                    <p class="hero__pp">$19.55<sub>$22.55</sub></p>
                     <button type="button">
                         Buy Now
                     </button>
@@ -91,13 +95,13 @@ Buy Now</p>
         </section>
         <section class="app" id="app">
             <div>
-            <h2>Simple way to order your food</h2>
-            <p>Some food has looked so awful that it's looked like something 
+            <h2 class="hero__simple">Simple way to order your food</h2>
+            <p class="hero__tekst">Some food has looked so awful that it's looked like something 
                that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words.</p>
             <ol>
-                <li><span>1</span><p>Select Your Food</p></li>
-                <li><span>2</span><p>Add To Cart</p></li>
-                <li><span>3</span><p>Order Your Food</p></li>
+                <li class="hero__ty"><span>1</span><p class="hero__ty">Select Your Food</p></li>
+                <li class="hero__ty"><span>2</span><p class="hero__ty">Add To Cart</p></li>
+                <li class="hero__ty"><span>3</span><p class="hero__ty">Order Your Food</p></li>
             </ol>
             <ul>
                 <li><img src="/images/App_dowland.png" alt="App Store"></li>
@@ -107,7 +111,7 @@ Buy Now</p>
             <img src="/images/logo.png" alt="phon Viotu">
         </section>
    <section class="form_contact" id="form_contact">
-    <h2><span> Have Question </span> in Mind? Let us help you</h2>
+    <h2 class="hero__help"><span> Have Question </span> in Mind? Let us help you</h2>
     <form action="">
         <input placeholder="Enter" type="text">
         <button type="submit">Send</button>
@@ -117,7 +121,7 @@ Buy Now</p>
     <footer>
         <div>
         <img src="/images/Vioty_name.png" alt="logo">
-    <p>Some food has looked so awful that it's looked like something that the dog's brought home.</p>
+    <p class="hero__ppp">Some food has looked so awful that it's looked like something that the dog's brought home.</p>
     <ul>
         <li>
     <img src="/images/Inst_L.png" alt="Inst">
@@ -146,16 +150,16 @@ Buy Now</p>
         </nav>
     </div>
     <div>
-    <h2>
+    <h2 class="hero__contact">
         Contact
     </h2>
-    <a href="tel:8314663000">831.466.3000</a>
-    <a href="maito:info@basketball.com">info@basketball.com</a>
+    <a href="tel:8314663000" class="hero__contact">831.466.3000</a>
+    <a href="maito:info@basketball.com" class="hero__contact">info@basketball.com</a>
     </div>
     <div>
-    <h2>Location</h2>
-    <address><a href="https://www.bing.com/search?q=1347+Pacific+Avenue%2C+Suite+201&form=ANNTH1&refig=695d270f4ce84fac8b62c8aaf6729523&pc=U531&adppc=EdgeStart">1347 Pacific Avenue, Suite 201
-Santa Cruz, CA, 95060</a></address>
+    <h2 class="hero__contact">Location</h2>
+    <address><a href="https://www.bing.com/search?q=1347+Pacific+Avenue%2C+Suite+201&form=ANNTH1&refig=695d270f4ce84fac8b62c8aaf6729523&pc=U531&adppc=EdgeStart" class="hero__contact">
+        1347 Pacific Avenue, Suite 201Santa Cruz, CA, 95060</a></address>
      </div>
     </footer>
 </body>

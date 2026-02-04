@@ -1,0 +1,71 @@
+:root {
+    --bg: black;
+    --priymary: #FFFFFF;
+    --acsent: #D23166;
+    --secondary: #FAFAFA;
+}
+
+body {
+    color: var(--priymary);
+    background-color: var(--bg);
+}
+
+.hero__title {
+    font-family: "Alexandria";
+    font-size: 57px;
+    line-height: 94%;
+    letter-spacing: -7%;
+}
+
+.hero__title span {
+    color: var(--acsent);
+}
+
+.primeri-text {
+    font-family: "Manrope";
+}
+
+.hero__p span {
+    color: rgb(42, 34, 34);
+}
+
+.our-product {
+    font-family: "Roboto";
+}
+
+.hero__h3 {
+    font-family: "Hind Madurai";
+    color: chocolate;
+}
+
+.hero__bon {
+    font-family: "Roboto";
+}
+
+.hero__pp {
+    font-family: "Hind Madurai";
+}
+
+.hero__simple {
+    font-family: "Roboto";
+}
+
+.hero__tekst {
+    font-family: "Manrope";
+}
+
+.hero__ty {
+    font-family: "Manrope";
+}
+
+.hero__help {
+    font-family: "Alexandria";
+}
+
+.hero__ppp {
+    font-family: "Manrope";
+}
+
+.hero__contact {
+    font-family: "Manrope";
+}
