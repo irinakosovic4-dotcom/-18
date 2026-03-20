@@ -188,10 +188,19 @@ ol {
     display: flex;
     justify-content: space-between;
     align-items: center;
+	margin-bottom: 40px;
+}
+
+.products__title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
 }
 
 .products__navigation {
     display: flex;
+	align-items: center;
     gap: 18px;
 }
 
@@ -203,6 +212,7 @@ ol {
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF10;
+	border: none;
 }
 .products__list {
 	display: flex;
@@ -260,6 +270,8 @@ ol {
 
 .app-container {
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .app__title {
 	font-family: 'Roboto', sans-serif;
@@ -273,6 +285,13 @@ ol {
 .app__image-wrapper {
 	flex: 1 0 782px;
 }
+
+.app__image {
+	display: block;
+	max-width: 100%;
+	height: 810px;
+}
+
 .app__steps {
 	margin-bottom: 48px;
 }
@@ -321,9 +340,7 @@ ol {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)),
-		url(./assets/images/contanct.png);
+	background-image: url(./images/bg_viote.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -395,6 +412,24 @@ ol {
 	margin-bottom: 33px;
 	text-transform: uppercase;
 }
+ .navigation__list--2 {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+ }
+
+ .navigation__item--2 {
+	display: block;
+ }
+
+ .navigation__link--2 {
+	display: inline-block;
+	text-decoration: none;
+ }
+
 .footer__panel:not(:first-child) {
 	text-wrap: nowrap;
 }
